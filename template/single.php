@@ -9,7 +9,6 @@
       <p>Категории: <?php the_category(',') ?></p>
       <?php the_tags('<p>Метки: ', ', ', '</p>'); ?>
     </div>
-    <?php if ( function_exists('yoast_breadcrumb') ) : yoast_breadcrumb('<p id="breadcrumbs">','</p>'); ?>
     <?php the_content(); ?>
   </article>
   <?php endwhile; ?>
