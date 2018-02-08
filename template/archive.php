@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+﻿<?php get_header(); ?>
 <section>
   <h1><?php
     if (is_day()) : echo 'Архив за день: ' . get_the_date();
@@ -6,12 +6,12 @@
     elseif (is_year()) : echo 'Архив за год: ' . get_the_date('Y');
     else : echo 'Архив';
     endif; ?></h1>
-  <?php if ( function_exists('yoast_breadcrumb') ) : yoast_breadcrumb('<p id="breadcrumbs">','</p>'); ?>
+  <?php showbreadcrumb(); ?>
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <?php get_template_part('loop'); ?>
   <?php endwhile;
   else: echo '<h1>Записей нет. Либо ошибка, либо категория пуста.</h1>'; endif; ?>  
-  <?php pagination(); ?>
+  <?php showpagination(); ?>
 </section>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
