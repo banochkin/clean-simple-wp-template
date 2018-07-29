@@ -1,4 +1,4 @@
-﻿<?php get_header(); ?>
+<?php get_header(); ?>
 <section>
   <h1><?php echo 'Поиск по запросу: ' . get_search_query(); ?></h1>
   <?php showbreadcrumb(); ?>

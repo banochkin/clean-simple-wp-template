@@ -1,4 +1,4 @@
-﻿<?php get_header(); ?>
+<?php get_header(); ?>
 <section>
   <h1><?php echo 'Посты с меткой ' . single_tag_title('', false); ?></h1>
   <?php showbreadcrumb(); ?>

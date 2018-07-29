@@ -1,4 +1,4 @@
-﻿<?php get_header(); ?>
+<?php get_header(); ?>
 <section>
   <h1><?php
     if (is_day()) : echo 'Архив за день: ' . get_the_date();

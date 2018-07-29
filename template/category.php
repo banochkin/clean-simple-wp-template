@@ -1,4 +1,4 @@
-﻿<?php get_header(); ?>
+<?php get_header(); ?>
 <section>
   <h1><?php single_cat_title(); ?></h1>
   <?php showbreadcrumb(); ?>
