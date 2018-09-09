@@ -10,7 +10,7 @@
 <body <?php body_class(); ?>>
   <header>
     <?php
-      $args = array('theme_location' => 'top', 'container'=> 'ul', 'menu_class' => 'bottom-menu', 'menu_id' => 'bottom-nav');
+      $args = array('theme_location' => 'header', 'container'=> 'ul', 'menu_class' => 'header-menu', 'menu_id' => 'header-menu');
       wp_nav_menu($args);
     ?>
   </header>

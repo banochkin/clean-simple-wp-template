@@ -1,8 +1,8 @@
 <?php
 
 register_nav_menus( array(
-  'top' => 'Верхнее меню',
-  'bottom' => 'Нижнее меню'
+  'header' => 'Меню в шапке',
+  'footer' => 'Меню в подвале'
 ) );
 
 add_theme_support('post-thumbnails');
