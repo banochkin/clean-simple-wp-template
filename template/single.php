@@ -6,7 +6,7 @@
     <?php showbreadcrumb(); ?>
     <div class="meta">
       <p>Опубликовано: <?php the_time('j M Y'); ?> в <?php the_time('g:i'); ?></p>
-      <p>Категории: <?php the_category(',') ?></p>
+      <p>Категории: <?php the_category(', ') ?></p>
       <?php the_tags('<p>Метки: ', ', ', '</p>'); ?>
     </div>
     <?php the_content(); ?>
