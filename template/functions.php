@@ -47,4 +47,14 @@ function showbreadcrumb() {
   if ( function_exists('yoast_breadcrumb') ) {yoast_breadcrumb('<p id="breadcrumbs">','</p>');}
 }
 
+// Separator in title
+add_filter( 'wpseo_title', 'wpse137502_wpseo_title' );
+function wpse137502_wpseo_title( $title ) {
+  $site_title = get_bloginfo( 'name' );
+  if ( ! strpos( $title, $site_title ) ) {
+    $title .= " — " . $site_title;
+  }
+  return $title;
+}
+
 ?>
