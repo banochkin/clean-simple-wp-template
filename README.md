@@ -15,4 +15,4 @@
 
 * Ой столько всего.
 
-[ифтщсрлшт](https://banochkin.com/)
+[banochkin](https://banochkin.com/)
