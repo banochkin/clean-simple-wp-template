@@ -15,4 +15,6 @@
 
 * Ой столько всего.
 
-[banochkin](https://banochkin.com/)
+---
+
+[banochkin.com DAO](https://banochkin.com/) 🏴‍☠️
